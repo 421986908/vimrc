@@ -23,3 +23,7 @@ $ sudo apt-get install ctags
 $ sudo apt-get install cscope
 
 5.安装YouCompleteMe
+
+cd ~/.vim/bundle/YouCompleteMe
+
+./install.py --clang-completer
