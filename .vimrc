@@ -74,3 +74,9 @@ nmap <leader>ce :cs find e <C-R>=expand("<cword>")<CR><CR>
 nmap <leader>cf :cs find f <C-R>=expand("<cfile>")<CR><CR>
 nmap <leader>ci :cs find i <C-R>=expand("<cfile>")<CR><CR>
 nmap <leader>cd :cs find d <C-R>=expand("<cword>")<CR><CR>
+
+
+"--------------------------YouCompleteMe----------------------------------"
+nmap <leader>dc :YcmCompleter GoToDeclaration<CR>
+nmap <leader>df :YcmCompleter GoToDefinition<CR>
+nmap <leader>dd :YcmCompleter GoToDefinitionElseDeclaration<CR>
