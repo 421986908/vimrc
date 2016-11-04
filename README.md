@@ -26,4 +26,6 @@ $ sudo apt-get install cscope
 
 cd ~/.vim/bundle/YouCompleteMe
 
-./install.py --clang-completer
+./install.py --clang-completer --system-libclang --system-boost
+
+cp ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py ~/
