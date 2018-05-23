@@ -32,6 +32,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'majutsushi/tagbar'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'scrooloose/nerdtree'
+Plugin 'lyuts/vim-rtags'
 
 
 " All of your Plugins must be added before the following line
@@ -86,5 +87,7 @@ endif
 
 "--------------------------YouCompleteMe----------------------------------"
 nmap <leader>gc :YcmCompleter GoToDeclaration<CR>
-nmap <leader>gf :YcmCompleter GoToDefinition<CR>
+"nmap <leader>gf :YcmCompleter GoToDefinition<CR>
 nmap <leader>gd :YcmCompleter GoToDefinitionElseDeclaration<CR>
+
+nmap <leader>gf <leader>rn<C-R>=expand("<cword>")<CR><CR>

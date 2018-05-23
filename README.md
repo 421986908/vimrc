@@ -13,8 +13,9 @@ $ vim
 ```
 3.安装ctags,cscope
 ```
-$ sudo apt-get install ctags
-$ sudo apt-get install cscope
+$ sudo yum install ctags
+$ sudo yum install cscope
+$ sudo yum install rtags
 ```
 4.安装YouCompleteMe
 ```
